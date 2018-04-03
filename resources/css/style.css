@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: SeaShell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  top: 0;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 10px;
+}
+
+nav a {
+  color: SeaShell;
+  opacity: 0.9;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Mission Section */
+
+#mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url("../img/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  padding-top: 69px;
+}
+
+#mission .headline {
+  background-color: black;
+  width: 100%;
+}
+
+
+/* Featured Tea Section */
+
+#tea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  margin: auto 15px;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+}
+
+.item h4 {
+  margin-top: 10px;
+}
+
+
+/* Location Section */
+
+#locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image:url("../img/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+}
+
+.address-container {
+  display: flex;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 300px;
+  margin: 0 20px;
+}
+
+/* Contact Section */
+
+#contact {
+  height: 200px;
+}
+
+
+/* Footer */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
