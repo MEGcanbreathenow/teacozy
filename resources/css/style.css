@@ -14,9 +14,6 @@ h2, h3, h4 {
   padding: 10px;
 }
 
-h2 {
-  margin-bottom: 15px;
-}
 
 /* Header */
 header {
@@ -81,6 +78,8 @@ nav a {
   flex-direction: column;
   align-items: center;
   width: 1000px;
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
 
 .items {
@@ -91,7 +90,7 @@ nav a {
 }
 
 .item {
-  margin: auto 15px;
+  margin: 15px 15px 0px 15px;
 }
 
 .item img {
@@ -99,9 +98,6 @@ nav a {
   height: 200px;
 }
 
-.item h4 {
-  margin-top: 10px;
-}
 
 
 /* Location Section */
@@ -116,6 +112,10 @@ nav a {
   width: 1200px;
 }
 
+#locations h2 {
+  padding: 15px;
+}
+
 .address-container {
   display: flex;
 }
@@ -128,6 +128,7 @@ nav a {
   background-color: black;
   width: 300px;
   margin: 0 20px;
+  padding: 10px 0;
 }
 
 /* Contact Section */
